@@ -1,1 +1,1 @@
-# derivatives-model-interest-rates
+# derivatives-models-interest-rates
