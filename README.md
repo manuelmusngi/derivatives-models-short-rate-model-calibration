@@ -31,7 +31,7 @@ This framework is built around an abstract base class `ShortRateModel`, making i
 
 ---
 
-#### 🏗️ How to Build and Run
+#### How to Build and Run
 
 You'll need a C++ compiler (supporting C++20) and CMake.
 
