@@ -1,4 +1,4 @@
-#### derivatives-models-short rate model calibration framework
+#### Derivatives-models-short rate model calibration framework
 
 #### C++ Short-Rate Model Calibration Framework ⚙️
 
