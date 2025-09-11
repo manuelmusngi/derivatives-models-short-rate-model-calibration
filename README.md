@@ -34,7 +34,6 @@ This framework is built around an abstract base class `ShortRateModel`, making i
 
 ShortRateModelCalibration/\
 ├── CMakeLists.txt\
-├── README.md\
 ├── include/\
 │   ├── ShortRateModel.hpp       # Abstract base class for all models\
 │   ├── HoLeeModel.hpp           # Ho-Lee model interface\
