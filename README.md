@@ -79,7 +79,7 @@ Initial Sum of Squared Errors: 1.2345e-06
 
 ---
 
-#### 🔬 Calibration Process Explained
+#### Calibration Process Explained
 
 The `main.cpp` file walks through the calibration process conceptually:
 
