@@ -32,44 +32,21 @@ This framework is built around an abstract base class `ShortRateModel`, making i
 ---
 #### Project architecture
 
-Defining the Project Structure
-
-I'm currently crafting a detailed markdown block that maps out the project's structure. My focus is on creating a clear, hierarchical representation using backticks to format directory and file names. I'm aiming for a visually clean and easily understandable format.
-
-Drafting the Markdown Structure
-
-I've just finalized the initial markdown block outlining the project's structure. It's designed to be instantly usable within a GitHub README.md file. I've opted for a straightforward directory and file layout, using backticks for clear formatting. The goal is easy understanding at a glance.
-
-Refining the Markdown Block
-
-I've just finished the markdown block for the project structure. Now I'm meticulously adding file descriptions to the README to make it super clear. I'm focusing on concise explanations for each file, ensuring it's easy to understand at a glance. I've also incorporated the .gitignore recommendation.
-
-Of course. Here is a clean, copy-and-paste ready markdown block for your GitHub README.md that details the project structure.
-
-Markdown
-
-## 📁 Project Structure
-
-Here is the file and directory structure for the project. The layout separates the interface (`.hpp` files) from the implementation (`.cpp` files) for clean and modular code, making it easy to navigate and extend.
-
 ShortRateModelCalibration/
-├── .gitignore
-├── CMakeLists.txt
-├── README.md
+├── CMakeLists.txt\
+├── README.md\
 ├── include/
-│   ├── ShortRateModel.hpp       # Abstract base class for all models
-│   ├── HoLeeModel.hpp           # Ho-Lee model interface
-│   ├── HullWhiteModel.hpp       # Hull-White model interface
-│   ├── BDTModel.hpp             # BDT model interface
-│   └── BlackKarasinskiModel.hpp # Black-Karasinski model interface
+│   ├── ShortRateModel.hpp       # Abstract base class for all models\
+│   ├── HoLeeModel.hpp           # Ho-Lee model interface\
+│   ├── HullWhiteModel.hpp       # Hull-White model interface\
+│   ├── BDTModel.hpp             # BDT model interface\
+│   └── BlackKarasinskiModel.hpp # Black-Karasinski model interface\
 └── src/
-├── HoLeeModel.cpp           # Ho-Lee model implementation
-├── HullWhiteModel.cpp       # Hull-White model implementation
-├── BDTModel.cpp             # BDT model placeholder implementation
-├── BlackKarasinskiModel.cpp # Black-Karasinski placeholder implementation
-└── main.cpp                 # Main calibration
-
-
+├── HoLeeModel.cpp           # Ho-Lee model implementation\
+├── HullWhiteModel.cpp       # Hull-White model implementation\
+├── BDTModel.cpp             # BDT model placeholder implementation\
+├── BlackKarasinskiModel.cpp # Black-Karasinski placeholder implementation\
+└── main.cpp                 # Main calibration\
 
 #### How to Build and Run
 
