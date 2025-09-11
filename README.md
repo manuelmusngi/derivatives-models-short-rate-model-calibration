@@ -32,7 +32,7 @@ This framework is built around an abstract base class `ShortRateModel`, making i
 ---
 #### Project architecture
 
-ShortRateModelCalibration/
+ShortRateModelCalibration/\
 ├── CMakeLists.txt\
 ├── README.md\
 ├── include/
@@ -41,7 +41,7 @@ ShortRateModelCalibration/
 │   ├── HullWhiteModel.hpp       # Hull-White model interface\
 │   ├── BDTModel.hpp             # BDT model interface\
 │   └── BlackKarasinskiModel.hpp # Black-Karasinski model interface\
-└── src/
+└── src/\
 ├── HoLeeModel.cpp           # Ho-Lee model implementation\
 ├── HullWhiteModel.cpp       # Hull-White model implementation\
 ├── BDTModel.cpp             # BDT model placeholder implementation\
