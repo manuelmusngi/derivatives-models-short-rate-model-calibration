@@ -4,7 +4,7 @@
 
 This project provides a C++ framework for calibrating one-factor short-rate models to current market conditions. It's designed to be a clear, practical, and extensible tool for quantitative finance applications.
 
-## 📜 Overview
+#### Overview
 
 Short-rate models are fundamental in finance for pricing interest rate derivatives. Before they can be used, they must be **calibrated**—their parameters must be adjusted so that they accurately price basic market instruments, like zero-coupon bonds.
 
@@ -16,24 +16,24 @@ This project demonstrates the entire calibration workflow:
 
 ---
 
-## 🚀 Models Implemented
+#### Models Implemented
 
 This framework is built around an abstract base class `ShortRateModel`, making it easy to add new models.
 
 | Model                  | Key Features                                       | Implementation Status                                       |
 | ---------------------- | -------------------------------------------------- | ----------------------------------------------------------- |
-| **Hull-White** | Mean Reversion, Normal Distribution (allows negative rates) | ✅ **Fully Implemented** (Analytical Solution)              |
-| **Ho-Lee** | No Mean Reversion, Normal Distribution             | ✅ **Fully Implemented** (Analytical Solution)              |
-| **Black-Derman-Toy (BDT)** | Lognormal Distribution (no negative rates)         | 🏛️ **Structure Only** (Requires numerical tree) |
-| **Black-Karasinski** | Mean Reversion, Lognormal Distribution             | 🏛️ **Structure Only** (Requires numerical tree) |
+| **Hull-White** | Mean Reversion, Normal Distribution (allows negative rates) | **Fully Implemented** (Analytical Solution)              |
+| **Ho-Lee** | No Mean Reversion, Normal Distribution             | **Fully Implemented** (Analytical Solution)              |
+| **Black-Derman-Toy (BDT)** | Lognormal Distribution (no negative rates)         | **Structure Only** (Requires numerical tree) |
+| **Black-Karasinski** | Mean Reversion, Lognormal Distribution             | **Structure Only** (Requires numerical tree) |
 
 *The lognormal models (BDT, Black-Karasinski) do not have closed-form solutions for bond prices and require numerical methods like binomial or trinomial trees for implementation.*
 
 ---
 
-## 🏗️ How to Build and Run
+#### 🏗️ How to Build and Run
 
-You'll need a C++ compiler (supporting C++17) and CMake.
+You'll need a C++ compiler (supporting C++20) and CMake.
 
 ```bash
 # 1. Clone the repository
@@ -79,7 +79,7 @@ Initial Sum of Squared Errors: 1.2345e-06
 
 ---
 
-## 🔬 The Calibration Process Explained
+#### 🔬 Calibration Process Explained
 
 The `main.cpp` file walks through the calibration process conceptually:
 
@@ -89,7 +89,7 @@ The `main.cpp` file walks through the calibration process conceptually:
 
 3.  **Optimization**: In a real-world application, you would use a numerical optimization library (like [NLopt](https://nlopt.readthedocs.io/en/latest/), [Ceres Solver](http://ceres-solver.org/), or Boost.Math) to find the parameters `a` and `sigma` that **minimize** the value returned by the `objectiveFunction`. The code demonstrates this conceptually by showing that a "calibrated" set of parameters results in a lower error.
 
-## 🛠️ Next Steps & Extensions
+#### Next Steps & Extensions
 
 * **Implement a Numerical Optimizer**: Integrate a library like NLopt to perform the minimization automatically.
 * **Build Tree Pricers**: Implement binomial trees for the BDT and Black-Karasinski models.
