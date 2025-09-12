@@ -47,7 +47,7 @@ ShortRateModelCalibration/\
 ├── BlackKarasinskiModel.cpp # Black-Karasinski placeholder implementation\
 └── main.cpp                 # Main calibration
 
-#### How to Build and Run
+#### Build and Run
 
 You'll need a C++ compiler (supporting C++20) and CMake.
 
