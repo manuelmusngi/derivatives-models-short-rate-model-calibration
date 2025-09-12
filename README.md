@@ -45,7 +45,7 @@ ShortRateModelCalibration/\
 ├── [HullWhiteModel.cpp](https://github.com/manuelmusngi/derivatives-models-short-rate-model-calibration/blob/main/src/HullWhiteModel.cpp)\
 ├── [BDTModel.cpp](https://github.com/manuelmusngi/derivatives-models-short-rate-model-calibration/blob/main/src/BDTModel.cpp)\
 ├── [BlackKarasinskiModel.cpp](https://github.com/manuelmusngi/derivatives-models-short-rate-model-calibration/blob/main/src/BlackKarasinskiModel.cpp)\
-└── main.cpp                 # Main calibration
+└── [main.cpp](https://github.com/manuelmusngi/derivatives-models-short-rate-model-calibration/blob/main/src/main.cpp)                 # Main calibration
 
 #### Build and Run
 
