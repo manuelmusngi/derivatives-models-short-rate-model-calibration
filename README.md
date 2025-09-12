@@ -45,7 +45,7 @@ ShortRateModelCalibration/\
 ├── HullWhiteModel.cpp       # Hull-White model implementation\
 ├── BDTModel.cpp             # BDT model placeholder implementation\
 ├── BlackKarasinskiModel.cpp # Black-Karasinski placeholder implementation\
-└── main.cpp                 # Main calibration\
+└── main.cpp                 # Main calibration
 
 #### How to Build and Run
 
