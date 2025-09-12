@@ -99,7 +99,7 @@ Initial Sum of Squared Errors: 1.2345e-06
 
 The `main.cpp` file walks through the calibration process conceptually:
 
-1.  **Market Data Setup**: We start with a `std::map` representing the market zero-coupon yield curve and convert it to bond prices. This is our "ground truth".
+1.  **Market Data Setup**: We start with a `std::map` representing the market zero-coupon yield curve and convert it to bond prices. 
 
 2.  **Objective Function**: The heart of calibration is the `objectiveFunction`. It takes model parameters (`a`, `sigma`) as input and returns a single number: the **Sum of Squared Errors (SSE)** between the prices from our model and the actual market prices.
 
