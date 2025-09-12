@@ -36,9 +36,9 @@ ShortRateModelCalibration/\
 ├── [CMakeLists.txt](https://github.com/manuelmusngi/derivatives-models-short-rate-model-calibration/blob/main/src/main.cpp)\
 ├── include/\
 │   ├── [ShortRateModel.hpp](https://github.com/manuelmusngi/derivatives-models-short-rate-model-calibration/blob/main/include/ShortRateModel.hpp)       # Abstract base class for all models\
-│   ├── [HoLeeModel.hpp](https://github.com/manuelmusngi/derivatives-models-short-rate-model-calibration/blob/main/include/HoLeeModel.hpp)               # Ho-Lee model interface\
-│   ├── [HullWhiteModel.hpp](https://github.com/manuelmusngi/derivatives-models-short-rate-model-calibration/blob/main/include/HullWhiteModel.hpp)       # Hull-White model interface\
-│   ├── BDTModel.hpp             # BDT model interface\
+│   ├── [HoLeeModel.hpp](https://github.com/manuelmusngi/derivatives-models-short-rate-model-calibration/blob/main/include/HoLeeModel.hpp)\
+│   ├── [HullWhiteModel.hpp](https://github.com/manuelmusngi/derivatives-models-short-rate-model-calibration/blob/main/include/HullWhiteModel.hpp)\
+│   ├── [BDTModel.hpp](https://github.com/manuelmusngi/derivatives-models-short-rate-model-calibration/blob/main/include/BDTModel.hpp)\
 │   └── BlackKarasinskiModel.hpp # Black-Karasinski model interface\
 └── src/\
 ├── HoLeeModel.cpp           # Ho-Lee model implementation\
