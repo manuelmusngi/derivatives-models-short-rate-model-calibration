@@ -43,7 +43,7 @@ ShortRateModelCalibration/\
 └── src/\
 ├── [HoLeeModel.cpp](https://github.com/manuelmusngi/derivatives-models-short-rate-model-calibration/blob/main/src/HoLeeModel.cpp)\
 ├── [HullWhiteModel.cpp](https://github.com/manuelmusngi/derivatives-models-short-rate-model-calibration/blob/main/src/HullWhiteModel.cpp)\
-├── BDTModel.cpp             # BDT model placeholder implementation\
+├── [BDTModel.cpp](https://github.com/manuelmusngi/derivatives-models-short-rate-model-calibration/blob/main/src/BDTModel.cpp)\
 ├── BlackKarasinskiModel.cpp # Black-Karasinski placeholder implementation\
 └── main.cpp                 # Main calibration
 
