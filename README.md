@@ -2,7 +2,7 @@
 
 #### C++ Short-Rate Model Calibration Framework 
 
-This project provides a C++ framework for calibrating no arbitrage one-factor short-rate models to current market conditions. It's designed to be a clear, practical, and extensible tool for quantitative finance applications.
+This project provides a C++ framework for calibrating no arbitrage one-factor short-rate models to current market conditions. 
 
 #### Overview
 
