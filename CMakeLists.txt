@@ -20,5 +20,5 @@ add_executable(
     src/BlackKarasinskiModel.cpp
 )
 
-# A message to show where the executable is
-message(STATUS "Executable will be built in the build/ directory")
+# Message to show where the executable is
+mssage(STATUS "Executable will be built in the build/ directory")
