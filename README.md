@@ -25,7 +25,7 @@ This framework is built around an abstract base class `ShortRateModel`, making i
 | **Black-Derman-Toy (BDT)** | Lognormal Distribution (no negative rates)         | **Structure Only** (Requires numerical tree) |
 | **Black-Karasinski** | Mean Reversion, Lognormal Distribution             | **Structure Only** (Requires numerical tree) |
 
-*The lognormal models (BDT, Black-Karasinski) do not have closed-form solutions for bond prices and require numerical methods like binomial or trinomial trees for implementation.*
+The lognormal models (BDT, Black-Karasinski) do not have closed-form solutions for bond prices and require numerical methods like binomial or trinomial trees for implementation.
 
 ---
 #### Project architecture
