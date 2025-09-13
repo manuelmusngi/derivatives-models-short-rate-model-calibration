@@ -31,7 +31,7 @@ This framework is built around an abstract base class `ShortRateModel`, making i
 #### Project architecture
 
 ShortRateModelCalibration/\
-├── [CMakeLists.txt](https://github.com/manuelmusngi/derivatives-models-short-rate-model-calibration/blob/main/src/main.cpp)\
+├── [CMakeLists.txt](https://github.com/manuelmusngi/derivatives-models-short-rate-model-calibration/blob/main/CMakeLists.txt)\
 ├── include/\
 │   ├── [ShortRateModel.hpp](https://github.com/manuelmusngi/derivatives-models-short-rate-model-calibration/blob/main/include/ShortRateModel.hpp)       # Abstract base class for all models\
 │   ├── [HoLeeModel.hpp](https://github.com/manuelmusngi/derivatives-models-short-rate-model-calibration/blob/main/include/HoLeeModel.hpp)\
