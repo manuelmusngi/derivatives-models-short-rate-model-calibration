@@ -103,7 +103,7 @@ The `main.cpp` file walks through the calibration process conceptually:
 
 3.  **Optimization**: In a real-world application, you would use a numerical optimization library (like [NLopt](https://nlopt.readthedocs.io/en/latest/), [Ceres Solver](http://ceres-solver.org/), or Boost.Math) to find the parameters `a` and `sigma` that **minimize** the value returned by the `objectiveFunction`. The code demonstrates this conceptually by showing that a "calibrated" set of parameters results in a lower error.
 
-#### Possible Extensions
+#### Possible Development Extensions
 
 * **Implement a Numerical Optimizer**: Integrate a library like NLopt to perform the minimization automatically.
 * **Build Tree Pricers**: Implement binomial trees for the BDT and Black-Karasinski models.
