@@ -110,5 +110,9 @@ The `main.cpp` file walks through the calibration process conceptually:
 * **Price Derivatives**: Extend the models to price interest rate caps, floors, and swaptions.
 * **Use Real Market Data**: Connect the application to a data source to pull in real-time yield curves.
 
+#### References
+
+- [What Short Rate Model Should I Use?](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3963165)
+
 #### License
 This project is licensed under the [MIT License](https://github.com/manuelmusngi/regime_switching_models/edit/main/LICENSE).
