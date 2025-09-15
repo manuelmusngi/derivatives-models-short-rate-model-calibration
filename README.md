@@ -113,6 +113,7 @@ The `main.cpp` file walks through the calibration process conceptually:
 #### References
 
 - [What Short Rate Model Should I Use?](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3963165)
+- [Comparative Analysis of Single-Factor and Multi-Factor Short Rate Models](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4872289)
 
 #### License
 This project is licensed under the [MIT License](https://github.com/manuelmusngi/regime_switching_models/edit/main/LICENSE).
