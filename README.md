@@ -28,7 +28,8 @@ This framework is built around an abstract base class `ShortRateModel`, making i
 The lognormal models (BDT, Black-Karasinski) do not have closed-form solutions for bond prices and require numerical methods like binomial or trinomial trees for implementation.
 
 ---
-#### Project architecture
+
+<img width="20" height="20" alt="image" src="https://github.com/user-attachments/assets/5a0783d5-17b6-467c-9a30-a0c620773cac" /> Project Architecture
 
 ShortRateModelCalibration/\
 ├── [CMakeLists.txt](https://github.com/manuelmusngi/derivatives-models-short-rate-model-calibration/blob/main/CMakeLists.txt)\
